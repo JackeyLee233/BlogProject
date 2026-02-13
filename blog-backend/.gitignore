@@ -1,0 +1,36 @@
+# --- 系统及编译输出 ---
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+target/
+build/
+out/
+
+# --- IntelliJ IDEA 特有 ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+
+# --- Maven/Gradle 相关 ---
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+gradlew
+gradlew.bat
+bin/
+
+# --- 配置文件 (防止泄露数据库密码等信息) ---
+# 建议根据实际情况开启，通常会将本地配置后缀设为 -local
+# application-local.properties
+# application-local.yml
+
+# --- 日志及临时文件 ---
+logs/
+temp/
+tmp/
